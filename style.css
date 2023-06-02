@@ -7,14 +7,13 @@ body {
 
 header {
   position: absolute;
-  width: 375px;
   height: 718px;
   left: 0;
   top: 0;
   right: 0;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 54px;
+  padding-top: 8px;
   background: #fff;
 }
 
@@ -91,8 +90,8 @@ header {
   position: absolute;
   width: 26.46px;
   height: 4.73px;
-  left: 127.18px;
-  top: 151.59px;
+  left: 200.18px;
+  top: 130.59px;
   background: #6070ff;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
 }
@@ -114,13 +113,15 @@ header {
   justify-content: space-between;
   width: 50%;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
-.headerBottom h2 {
+.headerBottom a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  text-decoration: none;
 }
 
 /* Responsive media */
