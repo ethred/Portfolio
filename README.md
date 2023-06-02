@@ -100,7 +100,7 @@ Live Preview on Visual Studio Code
 
 👤 **Author**
 
-- GitHub: [@ethred](https://github.com/@ethred)
+- GitHub: [@ethred](https://github.com/@ethred/Portfolio.git)
 - Twitter: [@redwanthr](https://twitter.com/@redwanthr)
 - LinkedIn: [LinkedIn]([https://www.linkedin.com/in/Redwan Tahir/)
 
