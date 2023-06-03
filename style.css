@@ -21,7 +21,7 @@ section {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 120px;
-  background-image: URL("images/headershapes-mobile.svg");
+  background-image: url("images/headershapes-mobile.svg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
