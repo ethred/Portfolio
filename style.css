@@ -2,19 +2,29 @@ html,
 body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background: #e5e5e5;
+  background: #fff;
 }
 
 header {
   position: absolute;
   height: 718px;
+  width: 375px;
   left: 0;
   top: 0;
   right: 0;
   padding-left: 24px;
   padding-right: 24px;
-  padding-top: 8px;
-  background: #fff;
+  padding-top: 20px;
+}
+
+section {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 120px;
+  background-image: url("Images/headershapes-mobile.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .wrapper {
@@ -27,7 +37,7 @@ header {
   margin-bottom: 80px;
 }
 
-.logo {
+.nav-bar a {
   width: 76px;
   height: 20px;
   font-weight: 700;
@@ -40,6 +50,7 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
+  text-decoration: none;
 }
 
 .headerTop h1 {
@@ -64,56 +75,16 @@ header {
   color: #344563;
 }
 
-/* Shapes  */
-.headerTop h1::after {
-  content: url("images/Ellipse\ 3.png");
-  position: absolute;
-  width: 105px;
-  height: 105px;
-  left: 375px;
-  top: 152.24px;
-}
-
-.headerTop h1::before {
-  content: url("images/Ellipse\ 11.png");
-  position: absolute;
-  width: 38.5px;
-  height: 19.25px;
-  left: -30px;
-  top: 161.47px;
-  transform: rotate(-15.88deg);
-  background: #6070ff;
-}
-
-.nav-bar::after {
-  content: url("images/Rectangle\ 4.png");
-  position: absolute;
-  width: 26.46px;
-  height: 4.73px;
-  left: 200.18px;
-  top: 130.59px;
-  background: #6070ff;
-  transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-}
-
-/* link buttons */
-.link-btn::after {
-  content: url("images/Ellipse\ 12.png");
-  position: absolute;
-  width: 24.14px;
-  height: 12.07px;
-  left: 341.76px;
-  top: 546.69px;
-  background: #6070ff;
-  transform: rotate(-176.08deg);
-}
-
-.link-btn {
+.link-btn ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
   width: 50%;
   padding-bottom: 10px;
   padding-top: 10px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .headerBottom a {
@@ -123,8 +94,8 @@ header {
   color: #7f8cff;
   text-decoration: none;
 }
-
 /* Responsive media */
+
 @media (max-width: 768px) {
   body {
     font-size: 12px;
