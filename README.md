@@ -1,9 +1,4 @@
 <a name="readme-top"></a>
-
-<div align="center">
-  <img src="2.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Portfolio</b></h3>
 </div>
 
@@ -54,7 +49,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://github.com/ethred/Portfolio.git)
+- coming soon
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -98,7 +93,7 @@ Live Preview on Visual Studio Code
 
 - GitHub: [@ethred](https://github.com/ethred/Portfolio.git)
 - Twitter: [@redwanthr](https://twitter.com/@redwanthr)
-- LinkedIn: [LinkedIn]([https://www.linkedin.com/in/Redwan Tahir/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Redwan Tahir/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,6 +119,7 @@ I would like to thank @microverseinc for providing guidance on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## FAQ (OPTIONAL) <a name="faq"></a>
 - **[Why use this project?]**
 
   - [To get familair with HTML, CSS and Linters]
