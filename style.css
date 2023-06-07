@@ -70,11 +70,29 @@ a:visited {
   position: relative;
   border: 1px solid #6070ff;
   order: 3;
+  transition-duration: 0.4s;
 }
 
 .submit:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.submit:active {
   background-color: #6070ff;
-  color: white;
+  color: brown;
+  font-weight: bold;
+}
+
+.submit:enabled {
+  background: #fff;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+}
+
+.submit:disabled {
+  background: #e5e5e5;
 }
 
 .nav-bar a {
@@ -314,8 +332,6 @@ a:visited {
     column-gap: 10px;
 
     .flex-col {
-      /* display: flex;
-      flex-direction: column; */
       padding-left: 16px;
       padding-right: 16px;
       padding-top: 20px;
@@ -331,6 +347,8 @@ a:visited {
 }
 
 .section-bottom {
+  display: flex;
+  flex-direction: column;
   padding-top: 10px;
   width: 375px;
   height: 1263px;
@@ -349,8 +367,8 @@ a:visited {
   flex-wrap: wrap;
   column-gap: 10px;
   row-gap: 10px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .links .btn {
@@ -387,7 +405,7 @@ a:visited {
   font-weight: 500;
   font-size: 20px;
   color: #000;
-  padding-left: 13px;
+  padding-left: 0;
 }
 
 .action {
@@ -400,6 +418,17 @@ a:visited {
 }
 
 .lang {
+  display: flex;
+  flex-direction: column;
+}
+
+.blink-arrow {
+  font-size: 35px;
+  color: #dfe1e6;
+  align-items: center;
+}
+
+.blink-name {
   display: flex;
   justify-content: space-between;
   align-items: center;
