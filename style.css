@@ -80,9 +80,8 @@ a:visited {
 }
 
 .submit:active {
-  background-color: #6070ff;
-  color: brown;
-  font-weight: bold;
+  background: #2230d2;
+  color: white;
 }
 
 .submit:enabled {
