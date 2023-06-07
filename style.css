@@ -85,7 +85,6 @@ a:visited {
 }
 
 .submit:enabled {
-  background: #fff;
   border: 1px solid #7f8cff;
   border-radius: 8px;
 }
