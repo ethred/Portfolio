@@ -46,6 +46,7 @@
 **[under the header-top there is a feature nav that holds the logo,a pop-up link in a feature set for now as an image, and a different div with a content of personal name and general professional description]**
 **[Under the header-bottom a link of different social medias for the time being I set only their icons]**
 **[under a new section there is about me and 4 profils with in a grid ]**
+**[under the section of bottom with in the about us side by side i have contact-us]**
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -99,7 +100,7 @@ Live Preview on Visual Studio Code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Contact section
+> Desktop version 
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -115,7 +116,8 @@ If you like this project give it a star!!!⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank @microverseinc for providing guidance on this project.
+I would like to thank @microverseinc for providing guidance on this project. and my code partners Frelly and 
+Kinyanjui
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
