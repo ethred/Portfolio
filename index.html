@@ -1,58 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home Page</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" /> 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Desktop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" /> 
+</head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <a href="#">My Logo</a>
-            <img alt="" src="images/iconsicon--menu.svg"/>
+        <nav>
+            <div class="logo">
+                <h3>My Logo</h3>
+            </div>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <main>
-        <section>
-            <div class="headerTop">
-                <h1>I'm Redwan.<br/>
-                    Glad to see <br/>
-                    you!
-                </h1>
-                <p >
-                    I’m a software developer! I can help you build a product , feature or
-                    website Look through some of my work and experience! If you like what
-                    you see and have a project you need coded, don’t hesitate to contact
-                    me.
-                </p>
-            </div>
-            <!-- End of header top -->
-            <div class="headerBottom">
-                <a href="#">LET’S CONNECT</a>
-                <div class="link-btn">
+    <section class="Introduction">
+        <h1>I’m Alexandra.<br>
+            Glad to see you!
+        </h1>
+        <p>
+            I’m a software developer! I can help you build a product , feature or website Look through 
+            some of my work and experience! If you like what you see and have a project you need 
+            coded, don’t hesitate to contact me.
+        </p>
+        <p class="social-links-title">
+            LET’S CONNECT
+        </p>
+        <div class="social-links">
+            <a href=""><img src="images/Twitter.svg" alt=""></a>
+            <a href=""><img src="images/Instagram2.png" alt=""></a>
+            <a href=""><img src="images/link-Vector3.svg" alt=""></a>
+            <a href=""><img src="images/link-Vector4.svg" alt=""></a>
+            <a href=""><img src="images/link-Vector5.svg" alt=""></a>
+        </div>
+    </section>
+    <section class="container work-area">
+        <div class="flex-row">
+            <div class="flex-col">
+                <div class="left">
+                    <img
+                            class="snapshoot-portfolio-icon"
+                            alt=""
+                            src="images/snapshoot-portfolio@2x.png"
+                        />
+                </div>
+                <div class="right">
+                    <h2>Tonic</h2>
+                            
                     <ul>
+                        <li>CANOPY</li>
+                        <li>Back End Dev </li>
+                        <li>2015</li>
+                    </ul>
+                    <p>
+                        A daily selection of privately 
+                        personalized reads; no accounts or 
+                        sign-ups required.
+                    </p>  
+                    <ul class="course">
                         <li>
-                            <a href="#"><img src="images/Twitter.svg" alt="Twitter"/></a>
+                            <a class="btnlin" href="">HTML</a>
                         </li>
                         <li>
-                            <a href="#"><img src="images/Instagram.png" alt="Instagram"/><img src="Images/VectorN.png" alt="Instagram"/></a>
+                            <a class="btn" href="">CSS</a>
                         </li>
                         <li>
-                            <a href="#"><img src="images/link-Vector3.svg" alt=""/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/link-Vector4.svg" alt=""/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/link-Vector5.svg" alt=""/></a>
+                            <a class="btn" href="">JavaScript</a>
                         </li>
                     </ul>
+                    <div class="action">
+                        <button class="submit">See project</button>
+                    </div>
+                            
+                </div>
+            
+                
+                    
+            </div>
+            <div class="flex-col">
+                <div class="left">
+                    <h2>Multi-Post Stories</h2>
+                            
+                    <ul>
+                        <li>Facbook</li>
+                        <li>Full Stack Dev </li>
+                        <li>2015</li>
+                    </ul>
+                    <p>
+                        Experimental content creation feature that allows users 
+                        to add to an existing story over the course of a day 
+                        without spamming their friends.
+                    </p>  
+                    <ul class="course">
+                        <li>
+                            <a class="btnlin" href="">HTML</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">Ruby on rails</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">CSS</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">JavaScript</a>
+                        </li>
+                    </ul>
+                    <div class="action">
+                        <button class="submit">See project</button>
+                    </div>
+                    
+                </div>
+                <div class="right">
+                    <img
+                            class="snapshoot-portfolio-icon"
+                            alt=""
+                            src="images/Snapshoot Portfolio.png"
+                        />
+                    
+                            
+                </div>
+            
+                
+                    
+            </div>
+            <div class="flex-col">
+                <div class="left">
+                    <img
+                            class="snapshoot-portfolio-icon"
+                            alt=""
+                            src="images/snapshoot-portfolio@2x.png"
+                        />
+                </div>
+                <div class="right">
+                    <h2>Facebook 360</h2>
+                            
+                    <ul>
+                        <li>Facbook</li>
+                        <li>Full Stack Dev </li>
+                        <li>2015</li>
+                    </ul>
+                    <p>
+                        Exploring the future of media in Facebook's first Virtual Reality 
+                        app; a place to discover and enjoy 360 photos and videos on 
+                        Gear VR.
+                    </p>  
+                    <ul class="course">
+                        <li>
+                            <a class="btnlin" href="">HTML</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">Ruby on rails</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">CSS</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">JavaScript</a>
+                        </li>
+                    </ul>
+                    <div class="action">
+                        <button class="submit">See project</button>
+                    </div>
+                            
+                </div>
+            
+                
+                    
+            </div>
+            <div class="flex-col">
+                <div class="left">
+                    <h2>Uber Navigation</h2>
+                            
+                    <ul>
+                        <li>Uber</li>
+                        <li>Lead Developer </li>
+                        <li>2018</li>
+                    </ul>
+                    <p>
+                        A smart assistant to make driving more safe, efficient, and fun 
+                        by unlocking your most expensive computer: your car.
+                    </p>  
+                    <ul class="course">
+                        <li>
+                            <a class="btnlin" href="">HTML</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">Ruby on rails</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">CSS</a>
+                        </li>
+                        <li>
+                            <a class="btn" href="">JavaScript</a>
+                        </li>
+                    </ul>
+                    <div class="action">
+                        <button class="submit">See project</button>
+                    </div>
+                    
+                </div>
+                <div class="right">
+                    <img
+                            class="snapshoot-portfolio-icon"
+                            alt=""
+                            src="images/Snapshoot Portfolio.png"
+                        />
+                    
+                            
+                </div>
+            
+                
+                    
+            </div>
+        </div>
+    </section>
+    <section class="bottom-sec">
+        <div class="section-bottom">
+            <div class="left"> 
+                <h2>About Myself</h2>
+                <p>
+                    Hello I’m a software developer! I can help you build a 
+                    product , feature or website Look through some of my 
+                    work and experience! If you like what you see and have 
+                    a project you need coded, don’t hesitate to contact me.
+                </p>
+                <p class="social-links-title">
+                    LET’S CONNECT
+                </p>
+                <div class="social-links-bottom">
+                    <a href=""><img src="images/link-Vector4.svg" alt=""></a>
+                    <a href=""><img src="images/Instagram2.png" alt=""></a>
+                    <a href=""><img src="images/link-Vector5.svg" alt=""></a>
+                    <a href=""><img src="images/Twitter.svg" alt=""></a>
+                    <a href=""><img src="images/link-Vector3.svg" alt=""></a>
+                </div>
+                <div class="action">
+                    <button class="submit getresume">Get my resume</button>
                 </div>
             </div>
-        </section>
-    </main> 
+            <div class="right">
+                <ul class="top-top">
+                    <li class="link-name Languages ">
+                        <div class="top">
+                            <div class="lname">Languages</div>
+                            <div>&or;</div>
+                        </div>
+                         <div class="bottom">
+                            <ul class="bottom-ul">
+                                <li>
+                                    <div class="topic">
+                                        <div class="link-logo"><img src="images/JS.png" alt=""></div>
+                                        <div class="links-name"><a  href="">JavaScript</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="topic">
+                                        <div class="link-logo"><img src="images/HTML.png" alt=""></div>
+                                        <div class="links-name"><a  href="">HTML</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="topic">
+                                        <div class="link-logo"><img src="images/CSS.png" alt=""></div>
+                                        <div class="links-name"><a  href="">CSS</a></div>
+                                    </div>
+                                </li>
+                            </ul>          
+                         </div>
+                    </li>
+                    <li class="link-name">
+                        <div class="lname">FrameWorks</div>
+                        <div>&gt;</div>
+                    </li>
+                    <li>
+                        <div class="lines"><img src="images/Separator Bottom.png" alt=""></div>
+                    </li>
+                    <li class="link-name ">
+                        <div class="lname">Skills</div>
+                         <div>&gt; </div>
+                         <hr>
+                    </li>
+                    <li>
+                        <div class="lines"><img src="images/Separator Bottom.png" alt=""></div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="contact-us">
+            
+            <h2>Contact me</h2>
+            <p>
+                If you have an application you 
+                are interested in developing, a 
+                feature that you need built or a
+                project that needs coding.  
+                I’d love to help with it!
+            </p>
+
+        <form action="https://formspree.io/f/mnqykova" method="post" class="contact-form">
+            <input
+            type="text"
+            placeholder="Lorem Ipsum"
+            class="input-client-info"
+            name="full-name"
+            minlength="2"
+            maxlength="30"
+            required />
+            <input
+            type="email"
+            name="email"
+            placeholder="loremipsum@gmail.com"
+            class="input-client-info"
+            required />
+            <textarea name="message" id="" maxlength="300" placeholder="Write your message here ..." ></textarea>
+            
+            <div class="button-container">
+            <button
+            name="submit"
+            id="button"
+            class="contact-button"
+            type="submit">
+            Get It Touch
+            </button>
+        </form>
+
+        </div>
+
+        
+    </section>
+
 </body>
 </html>
