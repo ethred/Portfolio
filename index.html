@@ -1,58 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home Page</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" /> 
-    </head>
-<body>
-    <header>
-        <nav class="nav-bar">
-            <a href="#">My Logo</a>
-            <img alt="" src="images/iconsicon--menu.svg"/>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <div class="headerTop">
-                <h1>I'm Redwan.<br/>
-                    Glad to see <br/>
-                    you!
-                </h1>
-                <p >
-                    I’m a software developer! I can help you build a product , feature or
-                    website Look through some of my work and experience! If you like what
-                    you see and have a project you need coded, don’t hesitate to contact
-                    me.
-                </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="top-menu">
+        <div class="sub-menu">
+          <h1>My-Redwan</h1>
+          <ul>
+            <li id="down"><a href="#">Portfolio</a></li>
+            <li id="down"><a href="#">About</a></li>
+            <li id="down"><a href="#">Contact</a></li>
+          </ul>
+          <img src="./image/hamburguer1111.png" alt="humber" id="humb">
+        </div>
+      </nav>
+      <section class="main-bar">
+      <header>
+        <div class="sub-main">
+          <h1>I’m Alexandra. <br>
+            Glad to see you!</h1>
+          <p>I’m a software developer! I can help you build a product , feature or 
+            website Look through some of my work and experience! If you like what you 
+            see and have a project you need coded, don’t hesitate to contact me.</p>
+            <div class="social">
+              <h4>LET’S CONNECT</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="./image/twitter.png" alt="angellist"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="./image/Linkedin icon.png" alt="Linkedin"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./image/medium.png" alt="github" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./image/github.png" alt="twitter" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="./image/angellist.png" alt="medium" /></a>
+                </li>
+              </ul>
             </div>
-            <!-- End of header top -->
-            <div class="headerBottom">
-                <a href="#">LET’S CONNECT</a>
-                <div class="link-btn">
-                    <ul>
-                        <li>
-                            <a href="#"><img src="images/Twitter.svg" alt="Twitter"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/Instagram.png" alt="Instagram"/><img src="Images/VectorN.png" alt="Instagram"/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/link-Vector3.svg" alt=""/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/link-Vector4.svg" alt=""/></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="images/link-Vector5.svg" alt=""/></a>
-                        </li>
-                    </ul>
-                </div>
+        </div>
+
+      </header>
+    </section>
+
+    <section class="works">
+      <nav class="card" id="one">
+        <div id="img1"></div>
+        <div class="left-bloks" id="sub-left-block">
+          <div class="primary">
+            <h1>Tonic</h1>
+            <div class="frame">
+              <p id="font">CANOPY</p>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>Back End Dev</h6>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>2015</h6>
             </div>
-        </section>
-    </main> 
-</body>
+          </div>
+          <p class="text">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+          <div class="action">
+            <button type="submit" class="btn"><p>See project</p></button>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="card" id="two">
+        <div id="img2"></div>
+        <div class="left-bloks"  id="sub-left-block">
+          <div class="primary">
+            <h1>Multi-Post Stories</h1>
+            <div class="frame">
+              <p id="font">FACEBOOK</p>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>Back End Dev</h6>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>2015</h6>
+            </div>
+          </div>
+          <p class="text">
+            Experimental content creation feature that allows users to add to an existing 
+            story over the course of a day without spamming their friends.
+          </p>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Ruby on rails</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+          <div class="action">
+            <button type="submit" class="btn"><p>See project</p></button>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="card" id="three">
+        <div id="img3"></div>
+        <div class="left-bloks" id="sub-left-block">
+          <div class="primary">
+            <h1>Facebook 360</h1>
+            <div class="frame">
+              <p id="font">FACEBOOK</p>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>Back End Dev</h6>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>2015</h6>
+            </div>
+          </div>
+          <p class="text">
+            Exploring the future of media in Facebook's first Virtual Reality app; a place to 
+            discover and enjoy 360 photos and videos on Gear VR.
+          </p>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Ruby on rails</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+          <div class="action">
+            <button type="submit" class="btn" id="buto"><p>See project</p></button>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="card" id="four">
+        <div id="img4"></div>
+        <div class="left-bloks" id="sub-left-block">
+          <div class="primary">
+            <h1>Uber Navigation</h1>
+            <div class="frame">
+              <p id="font">Uber</p>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>Lead develop</h6>
+              <img src="./image/Counter.png" alt="counter" />
+              <h6>2015</h6>
+            </div>
+          </div>
+          <p class="text">
+            A smart assistant to make driving more safe, efficient, and fun by unlocking 
+            your most expensive computer: your car.
+          </p>
+          <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">Ruby on rails</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+          <div class="action">
+            <button type="submit" class="btn"><p>See project</p></button>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="about">
+      <div class="left">
+        <h2>
+          About Myself
+        </h2>
+        <p>
+          Hello I’m a software developer! I can help you build a product , 
+          feature or website. Look through some of my work and experience! If 
+          you like what you see and have a project you need coded, don’t
+          hesitate to contact me.
+        </p>
+        <div class="social">
+          <h4>LET’S CONNECT</h4>
+          <ul>
+            <li>
+              <a href="#"
+                ><img src="./image/twitter.png" alt="angellist"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./image/Linkedin icon.png" alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/medium.png" alt="github" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/github.png" alt="twitter" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="./image/angellist.png" alt="medium" /></a>
+            </li>
+          </ul>
+        </div>
+        <button type="submit" class="btn">Get my resume</button>
+      </div>
+
+      <div class="skill">
+        <div class="frame1">
+          <div class="sub-flame">
+            <h3>Languages</h3>
+            <img src="./image/Disabled.png" alt="arrow" />
+          </div>
+          <div class="language">
+            <div class="sub-flame1">
+              <img src="./image/javascript.png" alt="javascript" />
+              <h3>JavaScript</h3>
+            </div>
+            <!-- <br /> -->
+            <div class="sub-flame1">
+              <img src="./image/html.png" alt="html" />
+              <h3>HTML</h3>
+            </div>
+            <!-- <br /> -->
+            <div class="sub-flame1">
+              <img src="./image/css.png" alt="css" />
+              <h3>CSS</h3>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="frame3">
+          <h3>Frameworks</h3>
+          <img src="./image/right.png" alt="right" />
+        </div>
+        <hr />
+        <div class="frame3">
+          <h3>Skills</h3>
+          <img src="./image/right.png" alt="right" />
+        </div>
+        <hr />
+      </div>
+    </section>
+    </div>
+    <section class="contact">
+      <div class="sub-contact">
+        <h1>Contact me</h1>
+      <p>
+        If you have an application you are interested in <br> developing, a feature 
+        that you need built or a project <br> that needs coding. I’d love to help
+        with it!
+      </p>
+      <form action="https://formspree.io/f/mnqykova" method="post">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          maxlength="30"
+          placeholder="Lorem Ipsum"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="loremipsum@gmail.com"
+          required
+        />
+        <textarea
+          name="text"
+          type="area"
+          id="text"
+          cols="30"
+          rows="10"
+          maxlength="500"
+          placeholder="Write your message here..."
+          required
+        ></textarea
+        >
+        <input type="submit" value="Get in touch" />
+      </form>
+      </div>
+      
+    </section>
+
+    
+  </body>
 </html>
