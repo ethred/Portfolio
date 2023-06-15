@@ -575,10 +575,14 @@ header section h4 {
   padding: 20px;
 }
 
+.forbackgroudn {
+  background-image: url(./image/Newcontact\ form\ background\ shapes@2x.png);
+  z-index: 10px;
+}
+
 .contact {
   padding-top: 100px;
-  background: #7b86eb; 
-  background-image: url(./image/Newcontact\ form\ background\ shapes@2x.png);
+  background: #7b86eb;
   background-size: cover;
   background-repeat: no-repeat;
   border-top-left-radius: 5rem;
