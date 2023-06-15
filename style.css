@@ -75,13 +75,14 @@ main {
   background-image: url(./image/backgroundimg.png);
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
   border-bottom-left-radius: 5rem;
 }
 
 .main-bar main .sub-main {
   display: flex;
   flex-direction: column;
-  padding: 190px 150px 160px 150px;
+  padding: 190px 150px 160px 237px;
   line-height: 1.8;
 }
 
@@ -499,6 +500,7 @@ main section ul {
   align-items: flex-start;
   width: 200px;
   height: 80px;
+  padding-top: 1rem;
 }
 
 main section h4 {
@@ -581,10 +583,10 @@ main section h4 {
 
 .contact {
   padding-top: 100px;
-  background: #7b86eb;
-  background-image: url(./image/backgroundimg.png);
-  background-size: cover;
-  background-position: center;
+  /* background: #7b86eb; */
+  background-image: url(images/background-contact-2.png);
+  /* background-size: cover;
+  background-position: center; */
   background-repeat: no-repeat;
   border-top-left-radius: 5rem;
 }
@@ -655,7 +657,7 @@ button[type="submit"]:hover {
   background: #6070ff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   border-radius: 8px;
-  color: red;
+  color: white;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -882,17 +884,17 @@ button[type="submit"]:hover {
     padding: 9px 12px;
   }
 
-  .contact::before {
+  /* .contact::before {
     content: "";
     position: relative;
-    background-color: rgb(96, 112, 255);
-    background-image: url(./image/header-shapes-mobile.png);
+    /* background-color: rgb(96, 112, 255); */
+  /* background-image: url(images/contact\ form\ background\ shapes@2x.png
     background-size: contain;
     border-top-left-radius: 5rem;
     z-index: -1;
     background-position: center;
     background-repeat: no-repeat;
-  }
+  } */
 
   .contact {
     position: relative;
