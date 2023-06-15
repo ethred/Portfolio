@@ -577,7 +577,8 @@ header section h4 {
 
 .contact {
   padding-top: 100px;
-  background-image: url(./image/background-contact-2.png);
+  background: #7b86eb; 
+  background-image: url(./image/Newcontact\ form\ background\ shapes@2x.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-top-left-radius: 5rem;
