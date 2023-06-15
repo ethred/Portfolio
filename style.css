@@ -213,7 +213,8 @@ main section p {
   background: #e5e5e5;
 }
 
-.contact .sub-contact button {
+.contact .sub-contact 
+{
   inline-size: 0;
   padding: 12px 16px;
   width: 167px;
