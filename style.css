@@ -55,14 +55,14 @@ header section h1 {
 .top h1 {
   width: 327px;
   height: 35px;
+  padding-bottom: 55px;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172b4d;
-  padding-bottom: 55px;
+  color: #172b4d;  
 }
 
 .contact .sub-contact h1 {
