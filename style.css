@@ -42,11 +42,13 @@ nav ul li a {
 
 .Introduction {
   width: 100%;
-  height: 500px;
+  height: auto;
   padding-top: 218px;
-  background: url(images/Background.png);
+  background: url(images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  border-bottom-left-radius: 89px;
+  padding-bottom: 12rem;
 }
 
 .Introduction h1 {
@@ -63,8 +65,6 @@ nav ul li a {
 }
 
 .Introduction p {
-  width: 920px;
-  height: 98px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -81,17 +81,14 @@ nav ul li a {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
-  margin-top: 0;
-  margin-bottom: -61px;
+  padding-bottom: 0.5rem;
 }
 
 .Introduction .social-links {
   display: flex;
   align-items: center;
   width: 200px;
-  margin-left: 226px;
-  margin-right: 92px;
-  margin-bottom: 20px;
+  padding-left: 14rem;
   justify-content: space-between;
 }
 
@@ -123,10 +120,12 @@ nav ul li a {
 .flex-col {
   display: flex;
   background: #fff;
-  width: 1156px;
   border-radius: 24px;
-  height: 496px;
-  margin-left: 155px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1rem;
+  padding-right: 1.5rem;
 }
 
 .topic img {
@@ -143,8 +142,6 @@ nav ul li a {
 }
 
 .contact-us h2 {
-  width: 801px;
-  height: 56px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -153,8 +150,9 @@ nav ul li a {
   align-items: center;
   text-align: center;
   color: #fff;
-  margin-top: 140px;
-  margin-left: 80px;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .bottom-sec .section-bottom .left h2 {
@@ -177,11 +175,20 @@ nav ul li a {
   margin-left: 46px;
 }
 
+.bottom-sec .section-bottom .left .social-links-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
 .container.work-area .flex-row .flex-col ul {
   display: flex;
   justify-content: flex-start;
   gap: 2rem;
-  margin-left: 12px;
+  padding-left: 3rem;
 }
 
 .container.work-area .flex-row .flex-col ul li {
@@ -203,8 +210,6 @@ nav ul li a {
 }
 
 .contact-us p {
-  width: 569px;
-  height: 102px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -212,12 +217,13 @@ nav ul li a {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-left: 232px;
-  margin-top: -26px;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .bottom-sec .section-bottom .left p {
-  width: 447px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -229,16 +235,13 @@ nav ul li a {
 }
 
 .container.work-area .flex-row .flex-col p {
-  width: 496px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin-left: 52px;
-  margin-top: 45px;
-  margin-bottom: 30px;
+  padding: 1rem 1rem 1rem 3rem;
 }
 
 .container.work-area .flex-row .flex-col .course {
@@ -257,6 +260,7 @@ nav ul li a {
   align-items: center;
   text-align: center;
   padding-left: 9px;
+  text-decoration-line: none;
 }
 
 .container.work-area .flex-row .flex-col .course a {
@@ -273,6 +277,12 @@ nav ul li a {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #6070ff;
+}
+
+.shapesHeader {
+  display: flex;
+  width: auto;
+  height: auto;
 }
 
 .submit {
@@ -339,19 +349,22 @@ nav ul li a {
   grid-row-end: 9;
   grid-column-start: 1;
   z-index: 10;
-  background: #6070ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/background-contact.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 846px;
   border-top-left-radius: 90px;
 }
 
 .contact-form {
-  width: 447px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 24px;
-  margin-left: 220px;
-  margin-top: -30px;
+  padding-left: 30rem;
+  padding-right: 30rem;
 }
 
 .contact-form input {
@@ -427,15 +440,14 @@ nav ul li a {
 }
 
 .bottom-sec .section-bottom .right {
-  width: 682px;
+  width: 60%;
+  padding: 3rem auto 0 5rem;
 }
 
 .bottom-sec .section-bottom .left {
   background-color: #fff;
-  width: 50%;
-  margin-left: 92px;
-  margin-top: 70px;
-  margin-right: -240px;
+  width: 40%;
+  padding: 5rem 1rem 2rem 5rem;
 }
 
 .bottom-sec .section-bottom .left .social-links-bottom {
@@ -548,7 +560,7 @@ nav ul li a {
   width: 500px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   [class*="col-"] {
     width: 100%;
   }
