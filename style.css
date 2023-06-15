@@ -763,6 +763,7 @@ button[type="submit"]:hover {
     background-size: contain;
     background-position: center;
   }
+  
 }
 
 @media screen and (max-width: 678px) {
