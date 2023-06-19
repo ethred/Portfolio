@@ -25,9 +25,9 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 [Desktop Version Portfolio] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**[Desktop Version Portfolio]** is a small one page project that will assist me in getting familiar with the essential tools that I will need to learn and apply in this project and name it as the Set up of Desktop version Portfolio.
+**[Portfolio]** is a small one page project that will assist me in getting familiar with the essential tools that I will need to learn and apply in this project and name it as the Set up of Portfolio.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,7 +51,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- coming soon
+https://ethred.github.io/Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
