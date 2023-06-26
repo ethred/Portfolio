@@ -12,7 +12,7 @@ closeIcon.addEventListener('click', () => {
   mobileMenuCont.classList.remove('active');
   mainbar.classList.remove('active');
 });
-/* add event for the links */ 
+/* add event for the links */
 linksa.addEventListener('click', () => {
   mobileMenuCont.classList.remove('active');
   mainbar.classList.remove('active');
