@@ -152,8 +152,6 @@ header {
 }
 
 .about .left h2 {
-  /* font-weight: 700;
-  font-size: 38px; */
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -270,7 +268,7 @@ header section p {
 .works #one {
   display: flex;
   flex-direction: row;
-  padding: auto 70px auto 70px;
+  padding: 10px 70px;
 }
 
 .works #three {
@@ -588,7 +586,10 @@ header section h4 {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  padding: auto 180px 50px 180px;
+  padding-top: 10px;
+  padding-right: 180px;
+  padding-bottom: 50px;
+  padding-left: 180px;
 }
 
 .contact form {
@@ -638,6 +639,11 @@ input[type="submit"]:hover,
 input[type="submit"]:focus {
   background-color: #396df2;
   color: #fff;
+}
+
+.mobile-menu-contaner {
+  visibility: hidden;
+  position: fixed;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -745,6 +751,55 @@ input[type="submit"]:focus {
     background-position: center;
     background-size: cover;
   }
+
+  .mobile-menu-contaner {
+    position: fixed;
+    visibility: hidden;
+    color: #fff;
+    top: -2px;
+    background-color: rgba(64, 83, 252, 0.8);
+    height: 850px;
+    width: 100%;
+
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 50px;
+    z-index: 200;
+  }
+
+  #mobile-menu-contaner.active {
+    position: fixed;
+    visibility: visible;
+  }
+
+  .main-bar.active {
+    filter: blur(10px);
+  }
+
+  .mobile-menu-contaner .close-icon {
+    position: fixed;
+    text-align: right;
+    padding-right: 38px;
+    width: 100%;
+  }
+
+  .container .mobile-menu-contaner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    padding-left: 30px;
+    padding-right: 96px;
+    padding-top: 50px;
+  }
+
+  .mobile-menu-contaner .sub-list a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 678px) {
@@ -762,6 +817,48 @@ input[type="submit"]:focus {
     justify-content: space-between;
     margin: 10px auto auto auto;
     padding: 1.5rem 1rem;
+  }
+
+  .mobile-menu-contaner {
+    position: fixed;
+    visibility: hidden;
+    color: #fff;
+    top: -2px;
+    background-color: rgba(64, 83, 252, 0.8);
+    height: 850px;
+    width: 100%;
+
+    /* display: flex;
+    flex-direction: column; */
+    padding-top: 50px;
+    z-index: 200;
+  }
+
+  #mobile-menu-contaner.active {
+    position: fixed;
+    visibility: visible;
+  }
+
+  .main-bar.active {
+    filter: blur(10px);
+  }
+
+  .mobile-menu-contaner .close-icon {
+    position: fixed;
+    width: 100%;
+    padding-right: 38px;
+    cursor: alias;
+  }
+
+  .mobile-menu-contaner ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    padding-left: 30px;
+    padding-right: 96px;
+    padding-top: 50px;
+    list-style: none;
   }
 
   .main-bar header .sub-main {

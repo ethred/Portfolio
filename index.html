@@ -8,19 +8,34 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    
     <div class="container">
       <nav class="top-menu">
         <div class="sub-menu">
           <h1>My-Redwan</h1>
           <ul>
-            <li id="down"><a href="#">Portfolio</a></li>
+            <li id="down"><a href="">Portfolio</a></li>
             <li id="down"><a href="#">About</a></li>
             <li id="down"><a href="#">Contact</a></li>
           </ul>
-          <img src="./image/hamburguer1111.png" alt="humber" id="humb">
+          <div class="menu-icon">
+            <img src="./image/hamburguer1111.png" alt="humber" id="humb">
+          </div>
+          
         </div>
       </nav>
-      <section class="main-bar">
+      <div id="mobile-menu-contaner" class="mobile-menu-contaner">
+          <div class="close-icon">
+            <img src="image/Icon.png" alt="">
+          </div>
+            <ul class="sub-list">
+              <li ><a href="#Portfolio">Portfolio</a></li>
+              <li ><a href="#About">About</a></li>
+              <li ><a href="#Contact">Contact</a></li>
+            </ul>
+      </div>
+     
+      <section  id="Portfolio" class="main-bar" >
       <header>
         <div class="sub-main">
           <h1>I’m Alexandra. <br>
@@ -174,7 +189,7 @@
       </nav>
     </section>
 
-    <section class="about">
+    <section id="About" class="about">
       <div class="left">
         <h2>
           About Myself
@@ -228,7 +243,7 @@
               <img src="./image/html.png" alt="html" />
               <h3>HTML</h3>
             </div>
-            <!-- <br /> -->
+            
             <div class="sub-flame1">
               <img src="./image/css.png" alt="css" />
               <h3>CSS</h3>
@@ -249,7 +264,7 @@
       </div>
     </section>
     </div>
-    <section class="contact">
+    <section id="Contact" class="contact">
       <div class="sub-contact">
         <h1>Contact me</h1>
       <p>
@@ -289,7 +304,8 @@
       </div>
       
     </section>
-
+    
+  <script src="./app.js"></script>
     
   </body>
 </html>
