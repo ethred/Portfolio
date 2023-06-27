@@ -136,5 +136,3 @@ function renderProdcuts(num) {
 }
 
 renderProdcuts();
-
-
