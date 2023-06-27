@@ -1266,7 +1266,7 @@ input[type="submit"]:focus {
 
   #popup2.active {
     top: 45%;
-    left: 40%;
+    left: 34%;
     visibility: visible;
     width: 65%;
     height: 800px;

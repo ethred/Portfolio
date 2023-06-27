@@ -135,8 +135,6 @@ function renderProdcuts(num) {
           `;
 }
 
-function toggle(num) {
-  const popup2 = document.getElementById('popup2');
-  popup2.classList.toggle('active');
-  renderProdcuts(num);
-}
+renderProdcuts();
+
+
