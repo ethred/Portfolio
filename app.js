@@ -18,72 +18,63 @@ linksa.addEventListener('click', () => {
   mainbar.classList.remove('active');
 });
 
-
-
-function toggle(num){
-  const popup2 = document.getElementById('popup2');
-  popup2.classList.toggle('active');
-  renderProdcuts(num)
-}
-
 const cards = [
   {
     id: 0,
-    name: "Tonic ",
-    techolgies: ["HTML","CSS","JAVAScript","Ruby","BootStrap"],
-    Dtecholgies:["CANOPY", "Back End Dev","2015"],
+    name: 'Tonic ',
+    techolgies: ['HTML', 'CSS', 'JAVAScript', 'Ruby', 'BootStrap'],
+    Dtecholgies: ['CANOPY', 'Back End Dev', '2015'],
     description:
-     [ " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. "
-    ," Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
-     imgSrc: "./image/SnapshootPortfolio.png",
-    linkstolv:"See Lives ",
-    linkstos:"See Sources",
+     [" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. ",
+       " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
+    imgSrc: './image/SnapshootPortfolio.png',
+    linkstolv: 'See Lives ',
+    linkstos: 'See Sources ',
   },
   {
     id: 1,
-    name: "Multi-Post Stories",
-    techolgies: ["HTML","CSS","JAVAScript","Ruby","BootStrap"],
-    Dtecholgies:["FACEBOOK", "Back End Dev","2015"],
+    name: 'Multi-Post Stories',
+    techolgies: ['HTML', 'CSS', 'JAVAScript', 'Ruby', 'BootStrap'],
+    Dtecholgies: ['FACEBOOK', 'Back End Dev', '2015'],
     description:
-    [ " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. "
-   ," Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
-    imgSrc: "./image/SnapshootPortfoliop2.png",
-   linkstolv:"See Lives ",
-   linkstos:"See Sources",
+    [" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. ",
+      " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
+    imgSrc: './image/SnapshootPortfoliop2.png',
+    linkstolv: 'See Lives ',
+    linkstos: 'See Sources ',
   },
   {
     id: 1,
-    name: "Facebook 360",
-    techolgies: ["HTML","CSS","JAVAScript","Ruby","BootStrap"],
-    Dtecholgies:["FACEBOOK", "Back End Dev","2015"],
+    name: 'Facebook 360',
+    techolgies: ['HTML', 'CSS', 'JAVAScript', 'Ruby', 'BootStrap'],
+    Dtecholgies: ['FACEBOOK', 'Back End Dev', '2015'],
     description:
-    [ " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. "
-   ," Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
-    imgSrc: "./image/SnapshootPortfoliop3.png",
-   linkstolv:"See Lives ",
-   linkstos:"See Sources",
+    [" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. ",
+      " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
+    imgSrc: './image/SnapshootPortfoliop3.png',
+    linkstolv: 'See Lives ',
+    linkstos: 'See Sources ',
   },
   {
     id: 1,
-    name: "Uber Navigation",
-    techolgies: ["HTML","CSS","JAVAScript","Ruby","BootStrap"],
-    Dtecholgies:["Uber", "Lead Dev","2015"],
+    name: 'Uber Navigation',
+    techolgies: ['HTML', 'CSS', 'JAVAScript', 'Ruby', 'BootStrap'],
+    Dtecholgies: ['Uber', 'Lead Dev', '2015'],
     description:
-     [ " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. "
-    ," Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
-     imgSrc: "./image/SnapshootPortfoliop4.png",
-    linkstolv:"See Lives ",
-    linkstos:"See Sources",
+     [" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has  been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and  typesetting industry. ",
+       " Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text  of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960 "],
+    imgSrc: './image/SnapshootPortfoliop4.png',
+    linkstolv: 'See Lives ',
+    linkstos: 'See Sources ',
   },
 ];
 
 // SELECT ELEMENTS
-const cardsE = document.querySelector(".popup2")
+const cardsE = document.querySelector('.popup2');
 
 // RENDER PRODUCTS
 function renderProdcuts(num) {
-
-  carde=Object.values(cards)[num];
+  const carde = Object.values(cards)[num];
   cardsE.innerHTML = `
   <div class="header">
   <div class="left">
@@ -136,10 +127,16 @@ function renderProdcuts(num) {
           </div>
           <div class="buttons">
           <button class="links-live">${carde.linkstolv}<img src="./image/See-live-Icon.png" alt=""> </button>
-          <button class="links-source">${carde.linkstos}<img src="./image/see-sourec-Vector" alt=""></button>
+          <button class="links-source">${carde.linkstos}<img src="./image/see-sourec-Vector.png" alt=""></button>
           </div>
       </div>
       
   </div>
           `;
+}
+
+function toggle(num) {
+  const popup2 = document.getElementById('popup2');
+  popup2.classList.toggle('active');
+  renderProdcuts(num);
 }

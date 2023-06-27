@@ -268,7 +268,6 @@ header section p {
 .works #one {
   display: flex;
   flex-direction: row;
-  /* padding: 10px 70px; */
 }
 
 .works #three {
@@ -276,15 +275,30 @@ header section p {
   border: 1.8px solid #a7aeff;
 }
 
-.works .action #buto {
-  background-color: #4053fc;
-}
-
 .card .action .btn p {
   color: #8300ff;
   font-weight: 500;
   font-size: 12px;
   transition: 0.5s ease;
+}
+
+.popup2 .contents .left p {
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 30px;
+  color: #344563;
+  padding-left: 20px;
+}
+
+.popup2 .contents .left .top p {
+  width: 100%;
+}
+
+.works .action #buto {
+  background-color: #4053fc;
 }
 
 .card .action .btn p:hover {
@@ -648,11 +662,9 @@ input[type="submit"]:focus {
 
 .popup2 {
   position: fixed;
-  /* top: 40%; */
   left: 50%;
   transform: translate(-50%, -50%);
   height: 100vh;
-  /* padding: 50px; */
   box-shadow: 0 5px 30px rgba(0, 0, 0, 30);
   background: #fff;
   visibility: visible;
@@ -660,10 +672,9 @@ input[type="submit"]:focus {
   transition: 0.5s;
   display: flex;
   flex-direction: column;
-  /* width: 1156px; */
   z-index: 100px;
-  /* height: 100px; */
 }
+
 .popup2 .header {
   background: #fff;
   display: flex;
@@ -679,6 +690,7 @@ input[type="submit"]:focus {
   gap: 0.5rem;
   width: 90%;
 }
+
 .popup2 .header .left h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -686,16 +698,18 @@ input[type="submit"]:focus {
   font-size: 40px;
   color: #091e42;
 }
+
 .popup2 .header .left ul {
   display: flex;
   gap: 1rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
   color: #7a869a;
 }
+
 .popup2 .header .left ul li {
   padding-left: 0.25rem;
   list-style: circle;
@@ -705,25 +719,23 @@ input[type="submit"]:focus {
 .popup2 .header .left ul li:first-child {
   list-style: none;
   padding-right: 5px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  /* identical to box height, or 133% */
-
-  /* Neutrals/N600 */
-
   color: #344563;
 }
 
 .popup2 .header .left a {
   background: #fff;
 }
+
 .popup2 .header .right {
   padding-top: 10px;
   align-items: end;
 }
+
 .popup2 .middle {
   width: 70%;
   height: 250;
@@ -733,9 +745,8 @@ input[type="submit"]:focus {
   padding-left: 5px;
   padding-top: 5px;
   margin-left: 80px;
-  justify-content: center;
-  /* padding: 5px 10px; */
 }
+
 .popup2 .middle img {
   max-width: 100%;
   height: auto;
@@ -748,23 +759,10 @@ input[type="submit"]:focus {
   margin-top: 30px;
   background: #fff;
 }
+
 .popup2 .contents .left {
   width: 80%;
   padding-right: 2rem;
-}
-.popup2 .contents .left p {
-  text-align: justify;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 30px;
-  color: #344563;
-  padding-left: 20px;
-}
-
-.popup2 .contents .left .top p {
-  width: 100%;
 }
 
 .popup2 .contents .right {
@@ -779,8 +777,9 @@ input[type="submit"]:focus {
   padding-right: 120px;
   flex-wrap: wrap;
 }
+
 .popup2 .contents .right .links ul li {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -793,14 +792,15 @@ input[type="submit"]:focus {
   background: #ebebff;
   border-radius: 8px;
 }
+
 .popup2 .contents .right .buttons button {
   background: #fff;
   border: 1px solid #cfd7f7;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   border-radius: 8px;
-  width: 132px;
+  width: 140px;
   height: 40px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -811,6 +811,7 @@ input[type="submit"]:focus {
   padding-right: 10px;
   margin-left: 5px;
 }
+
 .popup2 .contents .right .lines {
   display: none;
 }
@@ -887,7 +888,6 @@ input[type="submit"]:focus {
   .card {
     display: flex;
     flex-direction: row;
-    /* padding: 16px; */
     gap: 12px;
     width: 400px;
     background-color: #fff;
@@ -940,9 +940,6 @@ input[type="submit"]:focus {
     background-color: rgba(64, 83, 252, 0.8);
     height: 850px;
     width: 100%;
-
-    /* display: flex;
-    flex-direction: column; */
     padding-top: 50px;
     z-index: 200;
   }
@@ -980,6 +977,7 @@ input[type="submit"]:focus {
     font-size: 32px;
     color: #fff;
   }
+
   .popup2 {
     display: flex;
     flex-direction: column;
@@ -990,10 +988,11 @@ input[type="submit"]:focus {
     height: 713px;
     left: calc(50% - 343px / 2);
     top: 60px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
   }
+
   .popup2 .header {
     background: #fff;
     display: flex;
@@ -1003,29 +1002,35 @@ input[type="submit"]:focus {
     width: 100%;
     padding-left: 5px;
   }
+
   .popup2 .header .left h3 {
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
     color: #172b4d;
   }
+
   .popup2 .contents .right .links ul {
     padding-right: 2px;
   }
+
   .popup2 .contents .left {
     width: 100%;
     padding-right: 1rem;
   }
+
   .popup2 .contents {
     display: flex;
     flex-direction: column;
   }
-  popup2 .header .left {
+
+  /* .popup2 .header .left {
     align-self: self-start;
     width: 93%;
-  }
+  } */
+
   .popup2 .middle {
     width: 80%;
     height: 400px;
@@ -1035,8 +1040,6 @@ input[type="submit"]:focus {
     padding-left: 5px;
     padding-top: 5px;
     margin-left: 32px;
-    justify-content: center;
-    /* padding: 5px 10px; */
   }
 
   .popup2 .contents .left .top p {
@@ -1046,6 +1049,7 @@ input[type="submit"]:focus {
   .popup2 .contents .right .lines {
     display: block;
   }
+
   #popup2.active {
     top: 54%;
     left: 50%;
@@ -1084,9 +1088,6 @@ input[type="submit"]:focus {
     background-color: rgba(64, 83, 252, 0.8);
     height: 850px;
     width: 100%;
-
-    /* display: flex;
-    flex-direction: column; */
     padding-top: 50px;
     z-index: 200;
   }
@@ -1262,6 +1263,7 @@ input[type="submit"]:focus {
     line-height: 18px;
     font-size: 16px;
   }
+
   #popup2.active {
     top: 45%;
     left: 40%;
