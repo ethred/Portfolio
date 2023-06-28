@@ -1283,10 +1283,10 @@ input[type="submit"]:focus {
 
   #popup2.active {
     top: 40%;
-    left: 34%;
+    left: 36%;
     visibility: visible;
     width: 65%;
-    height: 729px;
+    height: 682px;
     opacity: 1;
     transition: 0.5s;
     overflow-y: scroll;
