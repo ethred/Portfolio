@@ -44,7 +44,7 @@ const cards = [
     linkstos: 'See Sources ',
   },
   {
-    id: 1,
+    id: 2,
     name: 'Facebook 360',
     techolgies: ['HTML', 'Ruby on ralls', 'CSS', 'JAVAScript'],
     Dtecholgies: ['FACEBOOK', 'Back End Dev', '2015'],
@@ -56,7 +56,7 @@ const cards = [
     linkstos: 'See Sources ',
   },
   {
-    id: 1,
+    id: 3,
     name: 'Uber Navigation',
     techolgies: ['HTML', 'Ruby on ralls', 'CSS', 'JAVAScript'],
     Dtecholgies: ['Uber', 'Lead Dev', '2015'],
@@ -188,10 +188,9 @@ function rendercards() {
                         <li><a href="#">${product.techolgies[1]}</a></li> 
                         <li><a href="#">${product.techolgies[2]}</a></li> 
                         <li><a href="#">${product.techolgies[3]}</a></li> 
-
                     </ul>
                     <div class="action">
-                      <button type="submit" class="btn" onclick="toggle(${passvalue})""><p>See project</p></button>
+                      <button type="submit" class="btn" onclick="toggle(${passvalue})"><p>See project</p></button>
                     </div>
                   </div>
                 </nav>
