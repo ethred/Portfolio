@@ -4,9 +4,6 @@ const mobileMenuCont = document.querySelector('.mobile-menu-contaner');
 const mainbar = document.querySelector('.main-bar');
 const linksa = document.querySelector('.mobile-menu-contaner ul ');
 
-// const scrollb=document.querySelector('body');
-// body.style.overflow = "hidden";
-
 menuIcon.addEventListener('click', () => {
   mobileMenuCont.classList.add('active');
   mainbar.classList.add('active');
