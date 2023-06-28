@@ -13,6 +13,11 @@ body {
   overflow-x: hidden;
 }
 
+body.active {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
 .container {
   background: #f7f7f9;
   position: relative;
@@ -774,7 +779,7 @@ input[type="submit"]:focus {
 .popup2 .contents .right .links ul {
   display: flex;
   gap: 8px;
-  padding-right: 120px;
+  padding-right: 100px;
   flex-wrap: wrap;
 }
 
@@ -997,7 +1002,7 @@ input[type="submit"]:focus {
     background: #fff;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
     padding-top: 10px;
     width: 100%;
     padding-left: 5px;
@@ -1024,6 +1029,7 @@ input[type="submit"]:focus {
   .popup2 .contents {
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
 
   /* .popup2 .header .left {
@@ -1032,14 +1038,25 @@ input[type="submit"]:focus {
   } */
 
   .popup2 .middle {
-    width: 80%;
-    height: 400px;
+    width: 90%;
+    height: 200px;
     display: flex;
     justify-content: center;
     background-color: rgb(213, 204, 204);
     padding-left: 5px;
     padding-top: 5px;
-    margin-left: 32px;
+    margin-left: 4px;
+  }
+
+  .popup2 .contents .left p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    padding-top: 5px;
+    margin-top: 0;
   }
 
   .popup2 .contents .left .top p {
@@ -1255,21 +1272,21 @@ input[type="submit"]:focus {
     margin-top: 450px;
   }
 
-  .contact .sub-contact p {
+  /* .contact .sub-contact p {
     color: rgb(235, 235, 255);
     text-align: center;
     margin: 0.8rem 2.8rem;
     font-weight: 550;
     line-height: 18px;
     font-size: 16px;
-  }
+  } */
 
   #popup2.active {
-    top: 45%;
+    top: 40%;
     left: 34%;
     visibility: visible;
     width: 65%;
-    height: 800px;
+    height: 729px;
     opacity: 1;
     transition: 0.5s;
     overflow-y: scroll;
