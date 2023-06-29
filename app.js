@@ -207,8 +207,6 @@ const form = document.querySelector('form');
 const email = document.getElementById('email');
 const submitBtn = document.getElementById('contact-btn');
 const error = submitBtn.nextElementSibling;
-const inputs = document.querySelectorAll('input');
-const messageArea = document.getElementById('textarea');
 const emailRegExp = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
 // const lettercase =/^[a-z]/;
 
@@ -240,6 +238,7 @@ form.addEventListener('submit', (event) => {
     email.className = 'valid';
     error.textContent = '';
     error.className = 'error';
+    document.getElementById('contact-form').reset();
   }
 });
 renderProdcuts();
