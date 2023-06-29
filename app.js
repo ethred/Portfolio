@@ -87,11 +87,11 @@ function renderProdcuts(num) {
   </div>
   <div class="right">
   <a href="#"  onclick="togglee()" ><img src="./image/Icon2.png" alt=""></a>
-      
+
   </div>
   </div>
   <div class="middle">
-  
+
       <img src="${carde.imgSrc}" alt="">
   </div>
 
@@ -105,8 +105,8 @@ function renderProdcuts(num) {
               ${carde.description[1]}
               </p>
            </div>
-          
-                  
+
+
       </div>
       <div class="right">
           <div class="links">
@@ -129,7 +129,7 @@ function renderProdcuts(num) {
           <button class="links-source">${carde.linkstos}<img src="./image/see-sourec-Vector.png" alt=""></button>
           </div>
       </div>
-      
+
   </div>
           `;
 }
@@ -184,10 +184,10 @@ function rendercards() {
                       sign-ups required.
                     </p>
                     <ul>
-                        <li><a href="#">${product.techolgies[0]}</a></li> 
-                        <li><a href="#">${product.techolgies[1]}</a></li> 
-                        <li><a href="#">${product.techolgies[2]}</a></li> 
-                        <li><a href="#">${product.techolgies[3]}</a></li> 
+                        <li><a href="#">${product.techolgies[0]}</a></li>
+                        <li><a href="#">${product.techolgies[1]}</a></li>
+                        <li><a href="#">${product.techolgies[2]}</a></li>
+                        <li><a href="#">${product.techolgies[3]}</a></li>
                     </ul>
                     <div class="action">
                       <button type="submit" class="btn" onclick="toggle(${passvalue})"><p>See project</p></button>
@@ -228,18 +228,18 @@ email.addEventListener('input', () => {
   }
 });
 
-// form.addEventListener('submit', (event) => {
-//   event.preventDefault();
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
 
-//   const isValid = email.value.length === 0 || emailRegExp.test(email.value);
-//   if (!isValid) {
-//     email.className = 'invalid';
-//     error.textContent = 'The email text has to be in small letters or Invalid e-mail';
-//     error.className = 'error active';
-//   } else {
-//     email.className = 'valid';
-//     error.textContent = '';
-//     error.className = 'error';
-//   }
-// });
+  const isValid = email.value.length === 0 || emailRegExp.test(email.value);
+  if (!isValid) {
+    email.className = 'invalid';
+    error.textContent = 'The email text has to be in small letters or Invalid e-mail';
+    error.className = 'error active';
+  } else {
+    email.className = 'valid';
+    error.textContent = '';
+    error.className = 'error';
+  }
+});
 renderProdcuts();
