@@ -8,19 +8,34 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    
     <div class="container">
       <nav class="top-menu">
         <div class="sub-menu">
           <h1>My-Redwan</h1>
           <ul>
-            <li id="down"><a href="#">Portfolio</a></li>
+            <li id="down"><a href="">Portfolio</a></li>
             <li id="down"><a href="#">About</a></li>
             <li id="down"><a href="#">Contact</a></li>
           </ul>
-          <img src="./image/hamburguer1111.png" alt="humber" id="humb">
+          <div class="menu-icon">
+            <img src="./image/hamburguer1111.png" alt="humber" id="humb">
+          </div>
+          
         </div>
       </nav>
-      <section class="main-bar">
+      <div id="mobile-menu-contaner" class="mobile-menu-contaner">
+          <div class="close-icon">
+            <img src="image/Icon.png" alt="">
+          </div>
+            <ul class="sub-list">
+              <li ><a href="#Portfolio">Portfolio</a></li>
+              <li ><a href="#About">About</a></li>
+              <li ><a href="#Contact">Contact</a></li>
+            </ul>
+      </div>
+     
+      <section  id="Portfolio" class="main-bar" >
       <header>
         <div class="sub-main">
           <h1>I’m Alexandra. <br>
@@ -57,124 +72,16 @@
       </header>
     </section>
 
-    <section class="works">
-      <nav class="card" id="one">
-        <div id="img1"></div>
-        <div class="left-bloks" id="sub-left-block">
-          <div class="primary">
-            <h1>Tonic</h1>
-            <div class="frame">
-              <p id="font">CANOPY</p>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>Back End Dev</h6>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>2015</h6>
-            </div>
-          </div>
-          <p class="text">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-          </ul>
-          <div class="action">
-            <button type="submit" class="btn"><p>See project</p></button>
-          </div>
-        </div>
-      </nav>
 
-      <nav class="card" id="two">
-        <div id="img2"></div>
-        <div class="left-bloks"  id="sub-left-block">
-          <div class="primary">
-            <h1>Multi-Post Stories</h1>
-            <div class="frame">
-              <p id="font">FACEBOOK</p>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>Back End Dev</h6>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>2015</h6>
-            </div>
-          </div>
-          <p class="text">
-            Experimental content creation feature that allows users to add to an existing 
-            story over the course of a day without spamming their friends.
-          </p>
-          <ul>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-          </ul>
-          <div class="action">
-            <button type="submit" class="btn"><p>See project</p></button>
-          </div>
-        </div>
-      </nav>
-
-      <nav class="card" id="three">
-        <div id="img3"></div>
-        <div class="left-bloks" id="sub-left-block">
-          <div class="primary">
-            <h1>Facebook 360</h1>
-            <div class="frame">
-              <p id="font">FACEBOOK</p>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>Back End Dev</h6>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>2015</h6>
-            </div>
-          </div>
-          <p class="text">
-            Exploring the future of media in Facebook's first Virtual Reality app; a place to 
-            discover and enjoy 360 photos and videos on Gear VR.
-          </p>
-          <ul>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-          </ul>
-          <div class="action">
-            <button type="submit" class="btn" id="buto"><p>See project</p></button>
-          </div>
-        </div>
-      </nav>
-
-      <nav class="card" id="four">
-        <div id="img4"></div>
-        <div class="left-bloks" id="sub-left-block">
-          <div class="primary">
-            <h1>Uber Navigation</h1>
-            <div class="frame">
-              <p id="font">Uber</p>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>Lead develop</h6>
-              <img src="./image/Counter.png" alt="counter" />
-              <h6>2015</h6>
-            </div>
-          </div>
-          <p class="text">
-            A smart assistant to make driving more safe, efficient, and fun by unlocking 
-            your most expensive computer: your car.
-          </p>
-          <ul>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">Ruby on rails</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">JavaScript</a></li>
-          </ul>
-          <div class="action">
-            <button type="submit" class="btn"><p>See project</p></button>
-          </div>
-        </div>
-      </nav>
+    <div id="popup2" class="popup2">
+      <!-- render popup windows here -->
+    </div>
+    
+    <section id="works" class="works">
+          <!-- render cards here -->
     </section>
 
-    <section class="about">
+    <section id="About" class="about">
       <div class="left">
         <h2>
           About Myself
@@ -228,7 +135,7 @@
               <img src="./image/html.png" alt="html" />
               <h3>HTML</h3>
             </div>
-            <!-- <br /> -->
+            
             <div class="sub-flame1">
               <img src="./image/css.png" alt="css" />
               <h3>CSS</h3>
@@ -249,7 +156,7 @@
       </div>
     </section>
     </div>
-    <section class="contact">
+    <section id="Contact" class="contact">
       <div class="sub-contact">
         <h1>Contact me</h1>
       <p>
@@ -289,7 +196,27 @@
       </div>
       
     </section>
-
+    
+  <script src="./app.js"></script>
+  <script>
+    // rendercards();
+    function toggle(num) {
+      const popup2 = document.getElementById('popup2');
+      const scrollb=document.querySelector('body');
+     popup2.classList.toggle('active');
+      renderProdcuts(num);
+      scrollb.style.overflow='hidden';     
+      }
+      function togglee(){
+       
+        const popup2 = document.getElementById('popup2');
+        const scrollb=document.querySelector('body');
+        const butt = document.querySelectorAll('.card .action .btn');
+        popup2.classList.remove('active');
+        scrollb.style.overflow="visible";
+        butt.classList.add('active');
+      }
+  </script>
     
   </body>
 </html>
