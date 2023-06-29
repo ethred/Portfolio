@@ -660,9 +660,34 @@ input[type="submit"]:focus {
   color: #fff;
 }
 
+/* This is our style for the invalid fields */
+input.invalid {
+  border-color: #900;
+  background-color: #fdd;
+}
+
+input:focus.invalid {
+  outline: none;
+}
+
 .mobile-menu-contaner {
   visibility: hidden;
   position: fixed;
+}
+
+.error {
+  width: 100%;
+  padding: 0;
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+
+.error.active {
+  padding: 0.3em;
 }
 
 .popup2 {
