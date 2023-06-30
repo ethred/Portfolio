@@ -69,6 +69,8 @@ const cards = [
   },
 ];
 
+renderProdcuts();
+
 // SELECT ELEMENTS
 const cardsE = document.querySelector('.popup2');
 
@@ -241,4 +243,27 @@ form.addEventListener('submit', (event) => {
     document.getElementById('contact-form').reset();
   }
 });
-renderProdcuts();
+
+/* Preserve to local storage */
+
+if (localStorage.getItem('formData')) {
+  const formData = JSON.parse(localStorage.getItem('formData'));
+  document.getElementById('fullname').value = formData.name;
+  document.getElementById('email').value = formData.email;
+  document.getElementById('message').value = formData.message;
+}
+
+document.getElementById('contact-form').addEventListener('submit', (event) => {
+  event.preventDefault();
+  const formData = {
+    name: document.getElementById('fullname').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+
+  document.getElementById('contact-form').reset();
+});
+
+
